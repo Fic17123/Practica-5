@@ -24,19 +24,12 @@ public class lienzo extends JPanel {
 
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, getWidth(), getHeight());
-
- 
         g.setColor(Color.BLUE);
         g.drawRect(objeto1.x, objeto1.y, 50, 50);
-
         g.setColor(Color.RED);
         g.fillRect(objeto1.x + 5, objeto1.y + 5, 40, 40);
-
-  
         g.setColor(Color.WHITE);
         g.fillOval(jugador.x, jugador.y, 45, 45);
-
-
         g.setFont(new Font("Arial", Font.BOLD, 16));
         g.drawString("Puntos: " + score, 260, 20);
     }

@@ -85,7 +85,7 @@ public class logic_view_lienzo implements ActionListener, KeyListener {
 
                 JOptionPane.showMessageDialog(
                         null,
-                        "¡Ganaste!\nPuntaje: 10");
+                        "Ganaste!\nPuntaje: 10");
 
                 System.exit(0);
             }
