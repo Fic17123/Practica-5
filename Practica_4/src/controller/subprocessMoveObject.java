@@ -26,7 +26,7 @@ public class subprocessMoveObject extends Thread {
 
             try {
 
-                Thread.sleep(5000);
+                Thread.sleep(500);
 
                 vl.pn_lienzo.setObjeto1(
                         getRandomX(),
